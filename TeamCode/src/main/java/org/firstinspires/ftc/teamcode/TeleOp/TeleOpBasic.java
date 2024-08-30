@@ -13,7 +13,7 @@ public class TeleOpBasic extends LinearOpMode {
         if (isStopRequested()) return;
         while (opModeIsActive()) {
             double randomNumber = Math.random();
-            telemetry.addData("randomNumber: ", randomNumber);
+            telemetry.addData("Hashini ", randomNumber);
             telemetry.update();
         }
     }
